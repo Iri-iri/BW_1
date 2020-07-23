@@ -73,7 +73,7 @@
 .main-info {
     width: 100%;
     background: #1d1d1d;
-    background-image: url("/images/Buildings__Black.png"), url("/images/Buildings__White.png");
+    background-image: url("images/Buildings__Black.png"), url("images/Buildings__White.png");
     /* height: 100vh; */
     background-repeat: no-repeat;
     background-size: contain;
