@@ -231,17 +231,17 @@
 }
 
 .once {
-    background-image: url("/images/Once.png");
+    background-image: url("images/Once.png");
     filter: grayscale(100%);
 }
 
 .twice {
-    background-image: url("/images/Twice.png");
+    background-image: url("images/Twice.png");
     filter: grayscale(100%);
 }
 
 .never {
-    background-image: url("/images/Never.png");
+    background-image: url("images/Never.png");
     filter: grayscale(100%);
 }
 
@@ -253,7 +253,7 @@
     padding: 200px 0;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85)),
-    url("/images/Post.png");
+        url("/images/Post.png");
     background-repeat: no-repeat;
     background-position: center bottom;
 }
@@ -267,15 +267,15 @@
 }
 
 .graph {
-    background-image: url("/images/LINE\ GRAPH@1X.png");
+    background-image: url("images/LINE\ GRAPH@1X.png");
 }
 
 .heart {
-    background-image: url("/images/HEART@1X.png");
+    background-image: url("images/HEART@1X.png");
 }
 
 .cloud {
-    background-image: url("/images/CLOUD\ _\ UPLOAD@1X.png");
+    background-image: url("images/CLOUD\ _\ UPLOAD@1X.png");
 }
 
 .card__image_border-white {
@@ -295,10 +295,6 @@
 .button {
     width: 100%;
     background-color: #181818;
-    /* background-image: url("/images/Post.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;  */
-    /* background-position: center center; */
 }
 
 .wrapper__button {
@@ -337,21 +333,21 @@
 }
 
 .phone {
-    background-image: url("/images/Phone.png");
+    background-image: url("images/Phone.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
 }
 
 .pin {
-    background-image: url("/images/PIN.png");
+    background-image: url("images/PIN.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
 }
 
 .mail {
-    background-image: url("/images/MAIL.png");
+    background-image: url("images/MAIL.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -431,8 +427,7 @@ footer {
         width: auto;
     }
 
-    .card__image {
-    }
+    .card__image {}
 
     .wrapper__button {
         margin-top: 50px;
@@ -441,7 +436,7 @@ footer {
     .contact-panel {
         flex-direction: column;
     }
-    
+
     .contact-panel__item {
         margin: 0 auto;
         padding-bottom: 10px;
